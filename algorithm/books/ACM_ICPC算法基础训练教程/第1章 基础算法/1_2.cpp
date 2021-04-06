@@ -1,8 +1,10 @@
 // 1-2 -- VIM
 // 2020-11-24
-// C++ stringÖĞµÄfind()º¯Êı£º		https://www.cnblogs.com/wkfvawl/p/9429128.html 
-// C++ stringÖĞµÄsubstr()º¯Êı£º		https://blog.csdn.net/fanjiule/article/details/81025031 
-// C++ setw()º¯Êı£º					https://www.runoob.com/w3cnote/cpp-func-setw.html 
+// C++ stringä¸­çš„find()å‡½æ•°ï¼š		https://www.cnblogs.com/wkfvawl/p/9429128.html 
+// C++ stringä¸­çš„substr()å‡½æ•°ï¼š		https://blog.csdn.net/fanjiule/article/details/81025031 
+// C++ setw()å‡½æ•°ï¼š					https://www.runoob.com/w3cnote/cpp-func-setw.html 
+// cinã€cin.get()ã€cin.getline()ã€getline()çš„åŒºåˆ«:
+// https://blog.csdn.net/a3192048/article/details/80303547?utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control
 
 #include <iostream>
 #include <string>
@@ -15,17 +17,17 @@ string text[105], command, lastreplace, repla, replaceby;
 bool changed;
 void reget(int &s, int &e, string str)
 {
-	//»ñÈ¡½«Òª±»Ìæ»»µÄÎÄ±¾µÄ·¶Î§
-	int p = str.find(',');				//ÆğÊ¼ĞĞºÅºÍÖÕÖ¹ĞĞºÅ±»¶ººÅ·Ö¸ô
+	//è·å–å°†è¦è¢«æ›¿æ¢çš„æ–‡æœ¬çš„èŒƒå›´
+	int p = str.find(',');				//èµ·å§‹è¡Œå·å’Œç»ˆæ­¢è¡Œå·è¢«é€—å·åˆ†éš”
 	s = 0;
-	//»ñÈ¡ÆğÊ¼ĞĞºÅ
+	//è·å–èµ·å§‹è¡Œå·
 	for (int i = 0; i < p; i++)
 	{
-		s *= 10;						//*¿¼ÂÇµ½ÆğÊ¼ĞĞºÅºÍÖÕÖ¹ĞĞºÅ¿ÉÄÜ²»Ö¹ÎªÒ»Î»Êı 
+		s *= 10;						//*è€ƒè™‘åˆ°èµ·å§‹è¡Œå·å’Œç»ˆæ­¢è¡Œå·å¯èƒ½ä¸æ­¢ä¸ºä¸€ä½æ•° 
 		s += str[i] - '0';
 	}
 	e = 0;
-	//»ñÈ¡ÖÕÖ¹ĞĞºÅ
+	//è·å–ç»ˆæ­¢è¡Œå·
 	for (int i = p+1; i < str.length(); i++)
 	{
 		e *= 10;
@@ -36,17 +38,17 @@ void reget(int &s, int &e, string str)
 int main()
 {
 	cin >> n;
-	cin.get();						//ÊäÈëĞĞÄ©»»ĞĞ·û£¬±£Ö¤getline()Õı³£¶ÁÈ¡ÎÄ±¾ 
+	cin.get();						//è¾“å…¥è¡Œæœ«æ¢è¡Œç¬¦ï¼Œä¿è¯getline()æ­£å¸¸è¯»å–æ–‡æœ¬ 
 	if (n == 0)	return 0;
 	for (int i = 1; i <= n; i++)	getline(cin, text[i]);
 	lastreplace = "";
 	int flag = false;
 	while (getline(cin, command))
 	{
-		if (flag)	cout << endl;	//ÏàÁÚÁ½¸öÌæ»»Ö®¼äÓÃ¿ÕĞĞ·Ö¸ô
+		if (flag)	cout << endl;	//ç›¸é‚»ä¸¤ä¸ªæ›¿æ¢ä¹‹é—´ç”¨ç©ºè¡Œåˆ†éš”
 		flag = true;
-		pos_s = command.find('s');	//sµÄÎ»ÖÃ
-		if (pos_s == 2)				//±íÊ¾Ìæ»»·¶Î§ÊÇËùÓĞµÄĞĞ 
+		pos_s = command.find('s');	//sçš„ä½ç½®
+		if (pos_s == 2)				//è¡¨ç¤ºæ›¿æ¢èŒƒå›´æ˜¯æ‰€æœ‰çš„è¡Œ 
 		{
 			sline = 1;
 			eline = n;
@@ -55,13 +57,13 @@ int main()
 		{
 			reget(sline, eline, command.substr(1, pos_s-1));
 		}
-		separator = command[pos_s+1];	//sºóÃæµÄ×Ö·û¾ÍÊÇÌæ»»ÃüÁîµÄ·Ö¸ô·û
+		separator = command[pos_s+1];	//såé¢çš„å­—ç¬¦å°±æ˜¯æ›¿æ¢å‘½ä»¤çš„åˆ†éš”ç¬¦
 		p1 = pos_s + 1;
 		p2 = command.find(separator, p1+1);
 		p3 = command.find(separator, p2+1);
 		repla = command.substr(p1+1, p2-p1-1);
 		replaceby = command.substr(p2+1, p3-p2-1);
-		//Èç¹û{pattern}Îª¿Õ£¬ÔòÊ¹ÓÃÉÏ´Î²¿Î»¿ÕµÄ{pattern}
+		//å¦‚æœ{pattern}ä¸ºç©ºï¼Œåˆ™ä½¿ç”¨ä¸Šæ¬¡éƒ¨ä½ç©ºçš„{pattern}
 		if (repla == "")	repla = lastreplace;
 		else	lastreplace = repla;
 		changed = false;
@@ -77,7 +79,7 @@ int main()
 				changed = true;
 				c = 1;
 			}
-			//Êä³öĞĞºÅÕ¼ÓÃ4¸ö×Ö·û£¬¿Õ2¸ö¸ñ£¬ÔÚÊä³öÌæ»»ºóµÄÎÄ±¾
+			//è¾“å‡ºè¡Œå·å ç”¨4ä¸ªå­—ç¬¦ï¼Œç©º2ä¸ªæ ¼ï¼Œåœ¨è¾“å‡ºæ›¿æ¢åçš„æ–‡æœ¬
 			if(c)	cout << setw(4) << i << " " << text[i] << endl;
 		}
 		if(!changed)	cout << "Pattern not found" << endl;
