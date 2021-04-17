@@ -50,7 +50,7 @@ int main()
 		{
 			tp = tm;
 			add(n - num[i], -1);
-			tp = tp + sum(n-num[i]) - num[i];		// 计算新的逆序对数 
+			tp = tp + sum(n-num[i]) - num[i];		// 璁＄畻鏂扮殑閫嗗簭瀵规暟
 			add(n-num[i], 1);
 			if (ans > tp) ans = tp;
 			tm = tp;
