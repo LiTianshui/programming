@@ -1,5 +1,5 @@
 // 2021-06-09
-// 二维数组中的查找 
+// 浜岀淮鏁扮粍涓殑鏌ユ壘 
 
 bool Find(int target, vecianzhtor<vector<int> > array) {
 	if (array.empty() || array[0].empty()) return false;
