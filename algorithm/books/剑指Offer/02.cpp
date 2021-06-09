@@ -1,5 +1,5 @@
 // 2021-06-09
-// �滻�ո�
+// 替换空格
 
 void replaceSpace(char *str, int length) {
 	int spaceCount = 0;
