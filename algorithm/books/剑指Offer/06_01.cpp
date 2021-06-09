@@ -1,5 +1,5 @@
 // 2021-06-09
-// Ðý×ªÊý×é
+// æ—‹è½¬æ•°ç»„
 
 int minNumberInRotateArray(vector<int> rotateArray) {
 	if (rotateArray.size() == 0) return 0;
