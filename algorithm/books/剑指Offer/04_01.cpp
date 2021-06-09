@@ -1,5 +1,5 @@
 // 2021-06-09
-// ÖØ½¨¶ş²æÊ÷ -µİ¹é 
+// é‡å»ºäºŒå‰æ ‘ ï¼ˆé€’å½’ï¼‰
  
 TreeNode* reConstructBinaryTree(vector<int> pre, vector<int> vin) {
 	if (pre.size() == 0 || vin.size() == 0) {
