@@ -1,5 +1,5 @@
 // 2021-06-10
-// ±äÌ¬ÌøÌ¨½×
+// å˜æ€è·³å°é˜¶
 
 int jumpFloorII(int number) {
 	if (number == 1) return 1;
