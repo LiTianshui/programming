@@ -1,5 +1,5 @@
 // 2021-06-10
-// ¾ØÕó¸²¸Ç
+// çŸ©é˜µè¦†ç›–
 
 int rectCover(int number) {
 	if (number <= 2) return number;
