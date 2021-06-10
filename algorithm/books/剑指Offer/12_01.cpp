@@ -1,5 +1,5 @@
 // 2021-06-10
-// 数值的整数次方
+// 鏁板�肩殑鏁存暟娆℃柟
 
 double Power(double base, int exponent) {
 	if (exponent == 0) return 1.0;
