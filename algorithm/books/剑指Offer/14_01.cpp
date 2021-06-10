@@ -1,5 +1,5 @@
 // 2021-06-10
-// Á´±íÖÐµ¹ÊýµÚk¸ö½áµã
+// é“¾è¡¨ä¸­å€’æ•°ç¬¬kä¸ªç»“ç‚¹
 
 ListNode* FindKthToTail(ListNode* pListHead, unsigned int k) {
 	int count = 0;
