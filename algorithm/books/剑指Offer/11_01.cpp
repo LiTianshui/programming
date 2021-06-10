@@ -1,5 +1,5 @@
 // 2021-06-10
-// ¶ş½øÖÆÖĞ1µÄ¸öÊı (bitset)
+// äºŒè¿›åˆ¶ä¸­1çš„ä¸ªæ•° (bitset)
 
 int NumberOf1(int n) {
 	return bitset<32>(n).count();
