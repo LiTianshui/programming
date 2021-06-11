@@ -1,5 +1,5 @@
 // 2021-06-11
-// Õ»µÄÑ¹Èëµ¯³öĞòÁĞ £¨vector£© 
+// æ ˆçš„å‹å…¥å¼¹å‡ºåºåˆ— ï¼ˆvectorï¼‰ 
 
 bool IsPopOrder(vector<int> pushV, vector<int> popV) {
 	if (pushV.size() == 0) return false;
