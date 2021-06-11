@@ -1,5 +1,5 @@
 // 2021-06-11
-// ·´×ªÁ´±í £¨Í·²å·¨£© 
+// åè½¬é“¾è¡¨ ï¼ˆå¤´æ’æ³•ï¼‰ 
 
 ListNode* ReverseList(ListNode* pHead) {
 	struct ListNode* Head = NULL;
