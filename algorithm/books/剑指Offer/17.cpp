@@ -1,5 +1,5 @@
 // 2021-06-11
-// Ê÷µÄ×Ó½á¹¹
+// æ ‘çš„å­ç»“æ„
 
 bool HasSubtree(TreeNode* pRoot1, TreeNode* pRoot2) {
 	if (pRoot1 == nullptr || pRoot2 == nullptr) return false;
