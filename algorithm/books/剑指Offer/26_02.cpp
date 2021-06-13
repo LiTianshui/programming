@@ -1,5 +1,5 @@
 // 2021-06-13
-// ¶þ²æËÑË÷Ê÷ÓëË«ÏòÁ´±í £¨µÝ¹é£©
+// äºŒå‰æœç´¢æ ‘ä¸ŽåŒå‘é“¾è¡¨ ï¼ˆé€’å½’ï¼‰
 
 TreeNode* Convert(TreeNode* pRootOfTree) {
 	if (pRootOfTree == NULL) return pRootOfTree;
