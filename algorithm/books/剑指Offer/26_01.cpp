@@ -1,5 +1,5 @@
 // 2021-06-13
-// 二叉搜索树与双向链表 （借助栈） 
+// 浜屽弶鎼滅储鏍戜笌鍙屽悜閾捐〃 锛堝�熷姪鏍堬級 
 
 TreeNode* Convert(TreeNode* pRootOfTree) {
 	TreeNode* head = NULL, *pre = NULL;
