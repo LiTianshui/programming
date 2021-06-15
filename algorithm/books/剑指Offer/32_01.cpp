@@ -1,5 +1,5 @@
 // 2021-06-15
-// °ÑÊı×éÅÅ³É×îĞ¡µÄÊı
+// æŠŠæ•°ç»„æ’æˆæœ€å°çš„æ•°
 
 string minNumber(vector<int>& nums) {
 	vector<string> temp;
