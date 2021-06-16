@@ -1,5 +1,5 @@
 // 2021-06-16
-// µÚN¸ö³óÊı £¨ÈıÖ¸Õë·¨£©
+// ç¬¬Nä¸ªä¸‘æ•° ï¼ˆä¸‰æŒ‡é’ˆæ³•ï¼‰
 
 int GetUglyNumber_Solution(int index) {
 	if (index < 7) return index;
