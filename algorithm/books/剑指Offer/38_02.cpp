@@ -1,5 +1,5 @@
 // 2021-06-17
-// ¶ş²æÊ÷µÄÉî¶È £¨µİ¹é£©
+// äºŒå‰æ ‘çš„æ·±åº¦ ï¼ˆé€’å½’ï¼‰
 
 int TreeDepth(TreeNode* pRoot) {
 	if (pRoot == nullptr) return 0;
