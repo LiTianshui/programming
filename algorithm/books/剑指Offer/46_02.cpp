@@ -1,5 +1,5 @@
 // 2021-06-21
-// 孩子们的游戏 （数组）
+// 瀛╁瓙浠殑娓告垙 锛堟暟缁勶級
 
 int LastRemaining_Solution(int n, int m) {
 	if (n < 1 || m < 1) return -1;
