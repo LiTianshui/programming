@@ -1,5 +1,5 @@
 // 2021-06-21
-// ÆË¿ËÅÆË³×Ó
+// æ‰‘å…‹ç‰Œé¡ºå­
 
 bool IsContinuous(vector<int> numbers) {
 	int len = numbers.size();
