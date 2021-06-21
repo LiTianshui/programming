@@ -1,5 +1,5 @@
 // 2021-06-21
-// 孩子们的游戏 （链表）
+// 瀛╁瓙浠殑娓告垙 锛堥摼琛級
 
 int LastRemaining_Solution(int n, int m) {
 	ListNode* root = (ListNode*) malloc (sizeof(ListNode));
