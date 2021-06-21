@@ -1,5 +1,5 @@
 // 2021-06-21
-// 反转单词序列
+// 鍙嶈浆鍗曡瘝搴忓垪
 
 string ReverseSentence(string str) {
 	string res = "", tmp = "";
