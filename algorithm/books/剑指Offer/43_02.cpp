@@ -1,5 +1,5 @@
 // 2021-06-21
-// ×óÐý×ª×Ö·û´®
+// å·¦æ—‹è½¬å­—ç¬¦ä¸²
 
 string LeftRotateString(string str, int n) {
 	int len = str.size();
