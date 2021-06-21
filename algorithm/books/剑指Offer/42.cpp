@@ -1,5 +1,5 @@
 // 2021-06-21
-// ºÍÎªSµÄÁ½¸öÊı×Ö
+// å’Œä¸ºSçš„ä¸¤ä¸ªæ•°å­—
 
 vector<int> FindNumbersWithSum(vector<int> array, int sum) {
 	vector<int> result;
