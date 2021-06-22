@@ -1,5 +1,5 @@
 // 2021-06-22
-// 字符串转化为整数
+// 瀛楃涓茶浆鍖栦负鏁存暟
 
 int StrToInt(string str) {
 	int len = str.size();
