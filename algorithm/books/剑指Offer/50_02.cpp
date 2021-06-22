@@ -1,5 +1,5 @@
 // 2021-06-22
-// Êı×éÖĞÖØ¸´µÄÊı×Ö £¨vector£©
+// æ•°ç»„ä¸­é‡å¤çš„æ•°å­— ï¼ˆvectorï¼‰
 
 bool duplicate(int numbers[], int length, int* duplication) {
 	vector<bool> result(length, false);
