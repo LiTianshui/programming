@@ -1,5 +1,5 @@
 // 2021-06-22
-// ÕıÔò±í´ïÊ½Æ¥Åä
+// æ­£åˆ™è¡¨è¾¾å¼åŒ¹é…
 
 bool match(string str, string pattern) {
 	char a[100], b[100];
