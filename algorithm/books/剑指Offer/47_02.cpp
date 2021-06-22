@@ -1,5 +1,5 @@
 // 2021-06-22
-// Çó1+2+3+...+N
+// æ±‚1+2+3+...+N
 
 int Sum_Solution(int n) {
 	int sumNum = n;
