@@ -1,5 +1,5 @@
 // 2021-06-22
-// 求两个数相加
+// 姹備袱涓暟鐩稿姞
 
 int Add(int num1, int num2) {
 	while (num2 != 0) {
