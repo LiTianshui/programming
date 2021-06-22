@@ -1,5 +1,5 @@
 // 2021-06-22
-// 构建乘积数组 （巧妙）
+// 鏋勫缓涔樼Н鏁扮粍 锛堝阀濡欙級
 
 vector<int> multiply(vonst vector<int>& A) {
 	int len = A.size();
