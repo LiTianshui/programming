@@ -1,5 +1,5 @@
 // 2021-06-22
-// Êı×éÖĞÖØ¸´µÄÊı×Ö £¨unordered_map£©
+// æ•°ç»„ä¸­é‡å¤çš„æ•°å­— ï¼ˆunordered_mapï¼‰
 
 bool duplicate(int numbers[], int length, int* duplication) {
 	unordered_map<int, int> unmp;
