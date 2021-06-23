@@ -1,5 +1,5 @@
 // 2021-06-23
-// ±íÊ¾ÊýÖµµÄ×Ö·û´®
+// è¡¨ç¤ºæ•°å€¼çš„å­—ç¬¦ä¸²
 
 bool isNumeric(char* string) {
 	bool sign = false, decimal = false, hasE = false;
