@@ -1,5 +1,5 @@
 // 2021-06-23
-// ¶Ô³ÆµÄ¶ş²æÊ÷
+// å¯¹ç§°çš„äºŒå‰æ ‘
 
 bool isEqual(TreeNode* node1, TreeNode* node2) {
 	if (node1 == nullptr && node2 == nullptr) return true;
