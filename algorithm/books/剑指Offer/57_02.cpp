@@ -1,5 +1,5 @@
 // 2021-06-23
-// ¶ş²æÊ÷µÄÏÂÒ»¸ö½áµã
+// äºŒå‰æ ‘çš„ä¸‹ä¸€ä¸ªç»“ç‚¹
 
 TreeLinkNode* GetNext(TreeLinkNode* pNode) {
 	if (pNode == nullptr) return nullptr;
