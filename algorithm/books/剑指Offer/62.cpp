@@ -1,5 +1,5 @@
 // 2021-06-24
-// ¶ş²æËÑË÷Ê÷µÄµÚK¸ö½Úµã
+// äºŒå‰æœç´¢æ ‘çš„ç¬¬Kä¸ªèŠ‚ç‚¹
 
 TreeNode* KthNode(TreeNode* pRoot, int k) {
 	if (pRoot == nullptr) return nullptr;
