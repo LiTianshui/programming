@@ -1,5 +1,5 @@
 // 2021-06-24
-// ¼ôÉş×Ó
+// å‰ªç»³å­
 
 int cutRope(int number) {
 	if (number < 2) return 0;
