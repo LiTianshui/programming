@@ -1,5 +1,5 @@
 // 2021-06-25
-// 135. ·Ö·¢ÌÇ¹û 
+// 135. åˆ†å‘ç³–æœ 
 
 int canday(vector<int>& ratings) {
 	int size = ratings.size();
