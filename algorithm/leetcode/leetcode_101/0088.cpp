@@ -1,5 +1,5 @@
 // 2021-06-25
-// 88. 合并两个有序数组
+// 88. 鍚堝苟涓や釜鏈夊簭鏁扮粍
 
 void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
 	int pos = m-- + n-- - 1;
