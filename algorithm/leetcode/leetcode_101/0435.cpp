@@ -1,5 +1,5 @@
 // 2021-06-25
-// 435. ÎŞÖØµşÇø¼ä
+// 435. æ— é‡å åŒºé—´
 
 int eraseOverlapIntervals(vector<vector<int>>& intervals) {
 	if (intervals.empty()) return 0;
