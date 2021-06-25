@@ -1,5 +1,5 @@
 // 2021-06-25
-// 142. »·ĞÎÁ´±íII
+// 142. ç¯å½¢é“¾è¡¨II
 
 ListNode* detectCycle(ListNode* head) {
 	ListNode *slow = head, *fast = head;
