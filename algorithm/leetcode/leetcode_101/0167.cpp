@@ -1,5 +1,5 @@
 // 2021-06-25
-// 167. 两数之和II-输入有序数组
+// 167. 涓ゆ暟涔嬪拰II-杈撳叆鏈夊簭鏁扮粍
 
 vector<int> twoSum(vector<int>& numbers, int target) {
 	int l = 0, r = numbers.size() - 1, sum;
