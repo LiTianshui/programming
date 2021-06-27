@@ -1,5 +1,5 @@
 // 2021-06-27
-// 76. ×îĞ¡¸²¸Ç×Ó´®
+// 76. æœ€å°è¦†ç›–å­ä¸²
 
 string minWindow(string s, string t) {
 	vector<int> chars(128, 0);
