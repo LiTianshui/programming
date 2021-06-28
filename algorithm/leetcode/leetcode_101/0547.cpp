@@ -1,5 +1,5 @@
 // 2021-06-28
-// 547. 省份数量
+// 547. 鐪佷唤鏁伴噺
 
 int findCircleNum(vector<vector<int>> &isConnected) {
 	int n = isConnected.size(), count = 0;
