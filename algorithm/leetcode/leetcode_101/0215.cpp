@@ -1,5 +1,5 @@
 // 2021-06-28
-// 215. Êý×éÖÐµÄµÚK¸ö×î´óÔªËØ
+// 215. æ•°ç»„ä¸­çš„ç¬¬Kä¸ªæœ€å¤§å…ƒç´ 
 
 int findKthLargest(vector<int> &nums, int k) {
 	int l = 0, r = nums.size() - 1, target = nums.size() - k;
