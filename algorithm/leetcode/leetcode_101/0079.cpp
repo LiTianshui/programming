@@ -1,5 +1,5 @@
 // 2021-06-29
-// 79. µ¥´ÊËÑË÷
+// 79. å•è¯æœç´¢
 
 bool exist(vector<vector<char>> &board, string word) {
 	if (board.empty()) return false;
