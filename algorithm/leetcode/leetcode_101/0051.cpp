@@ -1,5 +1,5 @@
 // 2021-06-30
-// 51. N»Êºó
+// 51. Nçš‡å
 
 vector<vector<string>> solveNQueens(int n) {
 	vector<vector<string>> ans;
