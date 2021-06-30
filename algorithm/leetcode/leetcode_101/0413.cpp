@@ -1,5 +1,5 @@
 // 2021-06-30
-// 413. 等差数列划分
+// 413. 绛夊樊鏁板垪鍒掑垎
 
 int numberOfArithmeticsSlices(vector<int> &nums) {
  	int n = nums.size();
