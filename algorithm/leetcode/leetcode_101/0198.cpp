@@ -1,5 +1,5 @@
 // 2021-06-30
-// 198. ´ò¼Ò½ÙÉá
+// 198. æ‰“å®¶åŠ«èˆ
 
 int rob(vector<int> &nums) {
 	if (nums.empty()) return 0;
