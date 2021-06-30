@@ -1,5 +1,5 @@
 // 2021-06-30
-// 64. 最小路径和 （二维）
+// 64. 鏈�灏忚矾寰勫拰 锛堜簩缁达級
 
 int minPathSum(vector<vector<int>> &grid) {
 	int m = grid.size(), n = grid[0].size();
