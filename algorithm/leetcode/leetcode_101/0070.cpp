@@ -1,5 +1,5 @@
 // 2021-06-30
-// 70. ÅÀÂ¥Ìİ
+// 70. çˆ¬æ¥¼æ¢¯
 
 int climbStairs(int n) {
 	if (n <= 2) return n;
