@@ -1,5 +1,5 @@
 // 2021-06-30
-// 934. ×î¶ÌµÄÇÅ
+// 934. æœ€çŸ­çš„æ¡¥
 
 vector<int> direction{-1, 0, 1, 0, -1};
 int shortestBridge(vector<vector<int>> &grid) {
