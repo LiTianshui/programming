@@ -1,5 +1,5 @@
 // 2021-07-05
-// 91. ±àÂë·½·¨
+// 91. ç¼–ç æ–¹æ³•
 
 int numDecodings(string s) {
 	int n = s.length();
