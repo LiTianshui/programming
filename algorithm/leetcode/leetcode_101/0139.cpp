@@ -1,5 +1,5 @@
 // 2021-07-06
-// 139. µ¥´Ê»®·Ö
+// 139. å•è¯åˆ’åˆ†
 
 bool wordBreak(string s, vector<string> &wordDict) {
 	int n = s.length();
