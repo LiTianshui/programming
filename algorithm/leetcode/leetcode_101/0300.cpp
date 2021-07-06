@@ -1,5 +1,5 @@
 // 2021-07-06
-// 300. ×î³¤µİÔö×ÓĞòÁĞ
+// 300. æœ€é•¿é€’å¢å­åºåˆ—
 
 int lengthOfLIS(vector<int> &nums) {
 	int max_length = 0, n = nums.size();
