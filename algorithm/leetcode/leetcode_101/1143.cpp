@@ -1,5 +1,5 @@
 // 2021-07-06
-// 1143. 最长公共子序列
+// 1143. 鏈�闀垮叕鍏卞瓙搴忓垪
 
 int longestCommonSubsequence(string text1, string text2) {
 	int m = text1.length(), n = text2.length();
