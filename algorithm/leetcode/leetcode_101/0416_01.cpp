@@ -1,5 +1,5 @@
 // 2021-07-07
-// 416. 分割等和子集
+// 416. 鍒嗗壊绛夊拰瀛愰泦
 
 bool canPartition(vector<int> &nums) {
 	int sum = accumulate(nums.begin(), nums.end(), 0);
