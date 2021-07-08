@@ -1,5 +1,5 @@
 // 2021-07-08
-// 72. ±à¼­¾àÀë
+// 72. ç¼–è¾‘è·ç¦»
 
 int minDistance(string word1, string word2) {
 	int m = word1.length(), n = word2.length();
