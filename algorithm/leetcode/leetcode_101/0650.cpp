@@ -1,5 +1,5 @@
 // 2021-07-09
-// 650. 只有两个键的键盘
+// 650. 鍙湁涓や釜閿殑閿洏
 
 int minSteps (int n) {
 	vector<int> dp(n + 1);
