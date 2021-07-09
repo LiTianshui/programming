@@ -1,5 +1,5 @@
 // 2021-07-09
-// ÕıÔò±í´ïÊ½Æ¥Åä
+// æ­£åˆ™è¡¨è¾¾å¼åŒ¹é…
 
 bool isMatch(string s, string p) {
 	int m = s.size(), n = p.size();
