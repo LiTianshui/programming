@@ -1,5 +1,5 @@
 // 2021-07-11
-// 504. Æß½øÖÆÊý
+// 504. ä¸ƒè¿›åˆ¶æ•°
 
 string convertToBase7(int num) {
 	if (num == 0) return "0";
