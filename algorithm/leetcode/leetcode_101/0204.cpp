@@ -1,5 +1,5 @@
 // 2021-07-11
-// 204. 计数质数
+// 204. 璁℃暟璐ㄦ暟
 
 int countPrimes(int n) {
 	if (n <= 2) return 0;
