@@ -1,5 +1,5 @@
 // 2021-07-11
-// 172. ½×³ËºóµÄÁã
+// 172. é˜¶ä¹˜åçš„é›¶
 
 int trailingZeroes(int n) {
 	return n == 0 ? 0 : n / 5 + trailingZeroes(n / 5);
