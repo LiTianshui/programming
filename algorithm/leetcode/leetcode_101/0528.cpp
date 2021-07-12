@@ -1,5 +1,5 @@
 // 2021-07-12
-// 528. 按权重随机选择
+// 528. 鎸夋潈閲嶉殢鏈洪�夋嫨
 
 class Solution {
 	vector<int> sums;
