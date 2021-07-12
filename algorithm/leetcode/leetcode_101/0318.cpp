@@ -1,5 +1,5 @@
 // 2021-07-12
-// 318. ��󵥴ʳ��ȳ˻�
+// 318. 最大单词长度乘积
 
 int maxProduct(vector<string> &words) {
 	unordered_map<int, int> hash;
