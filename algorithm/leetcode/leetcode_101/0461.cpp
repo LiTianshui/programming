@@ -1,5 +1,5 @@
 // 2021-07-12
-// 461. ººÃ÷¾àÀë
+// 461. æ±‰æ˜è·ç¦»
 
 int hammingDistance(int x, int y) {
 	int diff = x ^ y, ans = 0;
