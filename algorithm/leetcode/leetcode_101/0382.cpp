@@ -1,5 +1,5 @@
 // 2021-07-12
-// 382. 链表随机节点
+// 382. 閾捐〃闅忔満鑺傜偣
 
 class Solution {
 	ListNode *h;
