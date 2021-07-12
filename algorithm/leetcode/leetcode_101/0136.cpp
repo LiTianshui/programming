@@ -1,5 +1,5 @@
 // 2021-07-12
-// 136. 只出现一次的数字
+// 136. 鍙嚭鐜颁竴娆＄殑鏁板瓧
 
 int singleNumber(vector<int> &nums) {
 	int ans = 0;
