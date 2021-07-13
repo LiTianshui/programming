@@ -1,5 +1,5 @@
 // 2021-07-13
-// 769. 最多能完成排序的块
+// 769. 鏈�澶氳兘瀹屾垚鎺掑簭鐨勫潡
 
 int maxChunksToSorted(vector<int> &arr) {
 	int chunks = 0, cur_max = 0;
