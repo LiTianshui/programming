@@ -1,5 +1,5 @@
 // 2021-07-16
-// 155. ��Сջ
+// 155. 最小栈
 
 class MinStack {
 	stack<int> s, min_s;
