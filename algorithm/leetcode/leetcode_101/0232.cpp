@@ -1,5 +1,5 @@
 // 2021-07-16
-// 232. 用栈实现队列
+// 232. 鐢ㄦ爤瀹炵幇闃熷垪
 
 class MyQueue {
 	stack<int> in, out;
