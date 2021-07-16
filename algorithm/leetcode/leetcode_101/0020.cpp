@@ -1,5 +1,5 @@
 // 2021-07-16
-// 20. ÓĞĞ§µÄ·ûºÅ
+// 20. æœ‰æ•ˆçš„ç¬¦å·
 
 bool isValid(string s) {
 	stack<char> parsed;
